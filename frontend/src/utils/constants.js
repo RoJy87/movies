@@ -16,15 +16,15 @@ export const MAIN_API = {
   baseUrl:
     NODE_ENV === 'production'
       ? 'https://api.simon.movies.nomoredomains.xyz'
-      : 'http://localhost:3001',
+      : 'http://localhost:3000',
   userUrl:
     NODE_ENV === 'production'
       ? 'https://api.simon.movies.nomoredomains.xyz/users/me'
-      : 'http://localhost:3001/users/me',
+      : 'http://localhost:3000/users/me',
   moviesUrl:
     NODE_ENV === 'production'
       ? 'https://api.simon.movies.nomoredomains.xyz/movies'
-      : 'http://localhost:3001/movies',
+      : 'http://localhost:3000/movies',
 };
 
 export const MOVIES_API_BASE = 'https://api.nomoreparties.co';

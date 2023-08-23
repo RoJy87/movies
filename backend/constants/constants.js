@@ -1,5 +1,8 @@
 const {
-  NODE_ENV, JWT_SECRET = 'dev-secret', MONGODB_URL = 'mongodb://localhost:27017/dbmovies', PORT = 3001,
+  NODE_ENV,
+  JWT_SECRET = 'dev-secret',
+  MONGODB_URL = 'mongodb://localhost:27017/dbmovies',
+  PORT = 3000,
 } = process.env;
 
 const CREATED_CODE = 201;
